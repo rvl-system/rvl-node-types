@@ -1,0 +1,26 @@
+{
+  "name": "rvl-node-types",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for RVL-Node and friends",
+  "main": "dist/index.js",
+  "types": "declarations/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "tslint -p tsconfig.json",
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebrius/rvl-node-types.git"
+  },
+  "author": "Bryan Hughes <bryan@nebri.us>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nebrius/rvl-node-types/issues"
+  },
+  "homepage": "https://github.com/nebrius/rvl-node-types#readme",
+  "devDependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
